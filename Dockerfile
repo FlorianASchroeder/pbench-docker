@@ -8,7 +8,19 @@ RUN yum copr enable -y ndokos/pbench
 RUN yum -y update ca-certificates
 RUN yum -y install epel-release
 RUN yum -y install perl-JSON-XS
-RUN yum -y install pbench-agent
+RUN yum -y install \
+    pbench-agent \
+    configtools \
+    pbench-dashboard \
+    pbench-fio \
+    pbench-linpack \
+    pbench-server \
+    pbench-smallfile \
+    pbench-stress \
+    pbench-sysbench \
+    pbench-sysstat \
+    pbench-uperf \
+    pbench-web-server
 
 RUN yum -y clean all
 
