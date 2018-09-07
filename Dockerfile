@@ -18,7 +18,7 @@ RUN yum -y install \
     pbench-iperf \
     pbench-linpack \
     pbench-netperf \
-    pbench-server \
+#    pbench-server \ # requires rh-python35
     pbench-smallfile \
     pbench-stress \
     pbench-sysbench \
