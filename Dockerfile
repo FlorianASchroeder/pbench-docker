@@ -12,8 +12,12 @@ RUN yum -y install \
     pbench-agent \
     configtools \
     pbench-dashboard \
+    pbench-dbench \
     pbench-fio \
+    pbench-iozone \
+    pbench-iperf \
     pbench-linpack \
+    pbench-netperf \
     pbench-server \
     pbench-smallfile \
     pbench-stress \
